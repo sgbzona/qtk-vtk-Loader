@@ -24,10 +24,10 @@ DEFINES += QT_DEPRECATED_WARNINGS
 #DEFINES += QT_DISABLE_DEPRECATED_BEFORE=0x060000    # disables all the APIs deprecated before Qt 6.0.0
 
 #NEED TO CHANGE YOUR LOCAL VTK PATH
-INCLUDEPATH += /Users/novel/Downloads/VTK-8.1.2/vtk_build/vtk_bin/include/
+INCLUDEPATH += //Downloads/VTK-8.1.2/vtk_build/vtk_bin/include/
 
 #NEED TO CHANGE YOUR LOCAL VTK PATH
-LIBS += -L/Users/novel/Downloads/VTK-8.1.2/vtk_build/vtk_bin/lib \
+LIBS += -L//Downloads/VTK-8.1.2/vtk_build/vtk_bin/lib \
 -lvtkChartsCore-8.1 \
 -lvtkCommonColor-8.1 \
 -lvtkCommonComputationalGeometry-8.1 \
